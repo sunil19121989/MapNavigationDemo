@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:padding="@dimen/activity_vertical_margin"
+    tools:context="com.example.mapnavigationdemo.MainActivity">
+
+    <Spinner
+        android:id="@+id/sp_sortlbl"
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000000" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/h1"
+            android:textColor="#000000"
+            android:id="@+id/text_mode" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/h1"
+            android:textColor="#000000"
+            android:id="@+id/text_car" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/h1"
+            android:textColor="#000000"
+            android:id="@+id/text_train" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000000" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NAVIGATE"
+        android:textSize="@dimen/h1"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:textColor="#000000"
+        android:id="@+id/btn_navigate"
+        android:gravity="center" />
+</LinearLayout>
